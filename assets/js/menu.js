@@ -1,0 +1,1 @@
+$(".menu__title").on("mouseenter",function(e){$(".menu__title-padding_active").removeClass("menu__title-padding_active"),$(this).children(".menu__title-padding").addClass("menu__title-padding_active"),$(".menu__list").addClass("hidden"),$(this).parent(".menu__item").children(".menu__list").removeClass("hidden")});
